@@ -1,0 +1,21 @@
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+
+# Benchmark databases / outputs
+*.db
+*.duckdb
+logs/
+
+# Local env files
+.env
+.env.*
+
+# macOS
+.DS_Store
